@@ -1,0 +1,22 @@
+cat << 'EOF' > .gitignore
+# Build outputs & ISOs
+binaries.*/
+binaries*/
+*.iso
+*.7z
+*.zip
+*.cab
+*.wim
+
+# Logs & temp files
+*.log
+*.err
+*.obj
+*.pdb
+*.ilk
+*.tmp
+*.bak
+
+# Local certs (if generated locally)
+srv03rtm.certs/
+EOF
